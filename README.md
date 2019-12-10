@@ -1,17 +1,11 @@
-# MMDL (Constructing common/aligned/shared feature/embedding/latent space for different modalities)
+## MMDL
 
 ## Instructions
 
 - Modify `config.py` for the current experiment
 - Run with `python src/seq2seq-attn/model.py`
 
-## Data
-
-Download our data [here](https://ufile.io/c6mkz)
-
 ---
-
-Refer to [REFERENCES.md](REFERENCES.md) to know more about the following papers
 
 ## Directory structure
 
@@ -92,14 +86,4 @@ Refer to [REFERENCES.md](REFERENCES.md) to know more about the following papers
     - Pay special attention to the `exp_mode`, `enc_input_dim` (follow comments for clarification)
     - As for the rest of the hyperparams, we'll need to figure out which one turns out to be the best
 3. Run `python model.py`
-
-## References
-- https://papers.nips.cc/paper/5279-improved-multimodal-deep-learning-with-variation-of-information.pdf (using MinVI instead of MaxLL)
-- https://arxiv.org/pdf/1811.00347.pdf (How2 dataset)
-- https://arxiv.org/pdf/1804.07875.pdf (common multilingual semantic space)
-- https://github.com/A2Zadeh/CMU-MultimodalSDK (contains some multi-modal datasets and model implementations)
-- https://arxiv.org/pdf/1707.07250.pdf (Tensor Fusion Network)
-- https://aclweb.org/anthology/P18-1209 (LMF)
-- https://arxiv.org/pdf/1705.09406.pdf (Good survey paper)
-- https://www.cs.cmu.edu/~morency/MMML-Tutorial-ACL2017.pdf (Very good tutorial)
 
