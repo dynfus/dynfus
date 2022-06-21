@@ -1,5 +1,5 @@
 nltk==3.4
-numpy==1.16.2
+numpy==1.22.0
 gensim==3.7.1
 jupyter==1.0.0
 kaldi-io==0.9.0
